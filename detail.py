@@ -101,7 +101,7 @@ class Detail:
                 break
         return(pw)
 # ......................
-    @classmethod
+    @classmethoder
     def copy_email(cls,password):
         detail_found = Detail.find_by_password(password)
         pyperclip.copy(detail_found.email)

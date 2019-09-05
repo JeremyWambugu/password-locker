@@ -174,7 +174,7 @@ def main():
                             else:
                                     print("That detail does not exist")
 
-                    elif short_code == "del":
+                    elif short_code == "de":
                          print("Enter the password of the detail you want to delete")
                          search_password = input()
                          if check_existing_details(search_password):
